@@ -6,7 +6,11 @@ $config = include 'config.php';
 // Hacemos checkout a la rama origin/main
 // Log pretty para guardar los datos en el archivo new.txt
 // Regresamos a nuestra rama
-$var = shell_exec('git fetch;git checkout origin/main;git log --pretty=format:"%hws-%an-%ar-%s" > new.txt 2> error.txt;git checkout main;');
+// $url = shell_exec('./fetch.sh 2> errorfetch.txt > nsew.txt;');
+$var = shell_exec('git checkout remotes/origin/main;git log --pretty=format:"%hws-%an-%ar-%s" > new.txt;git checkout main;');
+// $git= $url;
+
+// return $git;
 // En este paso solo revisamos si existe un cambio ya lo descargamos pero aun no esta instalado
 
 // Procedemos a guardar el data del new.txt que contiene informacion de los cambios

@@ -28,7 +28,7 @@ if ($error) {
     <div class="col-md-12">
       <a href="crear.php"  class="btn btn-primary mt-4">Crear alumno</a>
       <a href="crear.php"  class="btn btn-primary mt-4">Ver nuevos Cambios</a>
-      <a  class="btn btn-primary mt-4">Actualizaciones <?=
+      <a  href="<?= 'git-iteration/downloadchanges.php'?>" class="btn btn-primary mt-4">Actualizaciones <?=
        count($git)
        ?></a>
       <hr>
