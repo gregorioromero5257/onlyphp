@@ -51,11 +51,11 @@ if ($error) {
         <thead>
           <tr>
             <th>#</th>
-            <th>Nombre</th>
-            <th>Apellido</th>
-            <th>Email</th>
-            <th>Edad</th>
-            <th>Acciones</th>
+            <th>Nombre |</th>
+            <th>Apellido |</th>
+            <th>Email |</th>
+            <th>Edad |</th>
+            <th>Acciones |</th>
           </tr>
         </thead>
         <tbody>
