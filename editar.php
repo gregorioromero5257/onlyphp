@@ -110,7 +110,7 @@ if (isset($alumno) && $alumno) {
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <h2 class="mt-4">Editando el alumno <?= escapar($alumno['nombre']) . ' ' . escapar($alumno['apellido'])  ?></h2>
+        <h2 class="mt-4">Editando Ruleta B el alumno <?= escapar($alumno['nombre']) . ' ' . escapar($alumno['apellido'])  ?></h2>
         <hr>
         <form method="post">
           <div class="form-group">
