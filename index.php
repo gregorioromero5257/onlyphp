@@ -47,6 +47,7 @@ if ($error) {
   <div class="row">
     <div class="col-md-12">
       <h2 class="mt-3"><?= $titulo ?></h2>
+      <h2>Ejemplo</h2>
       <table class="table">
         <thead>
           <tr>
