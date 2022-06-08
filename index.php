@@ -51,7 +51,7 @@ if ($error) {
         <thead>
           <tr>
             <th>#</th>
-            <th>Nombre | Ortro</th>
+            <th>Nombre | --</th>
             <th>Apellido |</th>
             <th>Email |</th>
             <th>Edad |</th>
