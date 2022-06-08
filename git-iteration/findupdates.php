@@ -6,8 +6,8 @@ $config = include 'config.php';
 // Hacemos checkout a la rama origin/main
 // Log pretty para guardar los datos en el archivo new.txt
 // Regresamos a nuestra rama
-// $url = shell_exec('./fetch.sh 2> errorfetch.txt > nsew.txt;');
-$var = shell_exec('git checkout remotes/origin/main;git log --pretty=format:"%hws-%an-%ar-%s" > new.txt;git checkout main;');
+$url = shell_exec('./fetch.sh 2> errorfetch.txt > nsew.txt;');
+$var = shell_exec('git checkout origin/main;git log --pretty=format:"%hws-%an-%ar-%s" > new.txt;git checkout main;');
 // $git= $url;
 
 // return $git;
