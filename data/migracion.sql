@@ -11,3 +11,13 @@ CREATE TABLE alumnos (
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
   updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
+CREATE TABLE `git` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `procs` varchar(50) DEFAULT NULL,
+  `user` varchar(100) DEFAULT NULL,
+  `data` varchar(100) DEFAULT NULL,
+  `name` varchar(100) DEFAULT NULL,
+  `status` int(1) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
