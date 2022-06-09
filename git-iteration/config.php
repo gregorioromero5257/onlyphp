@@ -3,8 +3,8 @@
 return [
   'db' => [
     'host' => 'localhost',
-    'user' => 'gre789',
-    'pass' => '$HolaMundo5257',
+    'user' => 'root',
+    'pass' => '',
     'name' => 'tutorial_crud',
     'options' => [
       PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
