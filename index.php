@@ -48,6 +48,7 @@ if ($error) {
     <div class="col-md-12">
       <h2 class="mt-3"><?= $titulo ?></h2>
       <h2>Ejemplo Cuatro Windows</h2>
+      <h2>Mi SO es <?= strtoupper(substr(PHP_OS, 0, 3))  ?></h2>
       <table class="table">
         <thead>
           <tr>
