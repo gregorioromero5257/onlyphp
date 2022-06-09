@@ -47,7 +47,7 @@ if ($error) {
   <div class="row">
     <div class="col-md-12">
       <h2 class="mt-3"><?= $titulo ?></h2>
-      <h2>Ejemplo Dos Windows</h2>
+      <h2>Ejemplo Tres Windows</h2>
       <table class="table">
         <thead>
           <tr>
